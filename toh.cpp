@@ -12,7 +12,7 @@ int toh(int n,int s,int d,int h)//function
    toh(n - 1, h, d, s); //2 shells can go from ht to dt using st ->faith  smaller problem
 }
 
-int main(int argc,char** argv)
+int main(int argc,char** argv) //main function
 {
     int shells=3;
    int res= toh(3,1,2,3);
